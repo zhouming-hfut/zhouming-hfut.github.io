@@ -1,37 +1,100 @@
-## Welcome to GitHub Pages
+# 个人信息
 
-You can use the [editor on GitHub](https://github.com/zhouming-hfut/zhouming-hfut.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+ * 周明/男/1987
+ * 研究生/合肥工业大学
+ * 工作年限：2012~至今
+ * 技术方向：NLP、TTS
+ * 手机：18656535049
+ * 邮箱：mingzhou.hfut@hotmail.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 教育经历
 
-### Markdown
+## 合肥工业大学 　　　　　*2009-09 ~ 2012-06*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+计算机应用 - 硕士研究生
 
-```markdown
-Syntax highlighted code block
+数据挖掘与智能计算实验室：研究方向为图像复原和图像分割
 
-# Header 1
-## Header 2
-### Header 3
+## 合肥工业大学 　　　　　*2005-09 ~ 2009-07*
 
-- Bulleted
-- List
+信息与计算科学 - 本科
 
-1. Numbered
-2. List
+理学院：主要学习各种基础数学理论，为后续工作打下坚实的数学理论基础
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+# 工作经历
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 搜狗 　　　　　*2018-06 ~ 至今*
 
-### Jekyll Themes
+AI交互事业部丨研究主管
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhouming-hfut/zhouming-hfut.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+负责创新性方向研究、团队管理和推动技术方案落地等工作。
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 高品质有声内容生产 
+**简介**: 带领团队完成高品质有声内容生产相关技术布局和效果优化
+
+**成果**: 针对有声小说场景，完成角色分析、情绪分析和智能插入音效/背景音等算法优化和技术方案落地的工作：角色分析上对话-角色归属准确率达到94%，全文A类主角识别准确率100%，一般角色识别准确率90%，正在进行角色合并和角色标签的相关工作；对话情绪分析上7类基础情绪识别准确率88%；智能音效上规范了音效库建设流程，事件音效匹配准确率达到90%，主要服务于阅文、QB小说、声咖等产品。针对短视频制作场景：完成文本关键词提取并通过关键词搜索表情；文本情绪分析并匹配背景音的功能；主要服务于微视、智影等产品（目前进行到I期）
+
+### TTS·自然度优化
+**简介**: 针对合成系统机械感较重的问题，持续优化tts系统韵律效果
+
+**成果**: LSTM系统下通过优化时长模型结构和提取prosody-code方式，整体自然度倾向性提升30%；fs系统下通过前端语义增强，将BERT和句法信息引入到声学模型中，并通过图模型建模句法信息，整体自然度和稳定性提升0.1MOS分
+
+### TTS·前端优化 
+**简介**: 带领团队持续优化合成前端系统效果和推动系统上线
+
+**成果**: 推动构建了标准的前端测试库、标注工具和标注规范流程，短时间内积累熟语料100w句；带领完成非实时、实时和离线前端系统的效果优化，非实时系统整体错误率接近2%，用于离线制作和数据预标注；实时系统效果相对基线提升30%，整体错误率接近4%，上线声咖/分身等在线服务；离线系统错误率接近6%，上线词典笔、手机（QB)等端上系统
+
+### 其他项目
+其它研究方向还包括：个性化合成、离线语音变声、音色生成技术等
+
+## 科大讯飞 　　　　　*2012-07 ~ 2018-05*
+
+研究院丨研究员
+
+负责语音合成效果优化、前瞻性算法研究以及新技术调研等。
+
+
+### NN-TTS系统 
+**简介**: 利用深度学习等技术提升合成前端各模块性能，包括分词、韵律和拼音等主要模块；将HMM语音合成系统全面升级为基于LSTM的语音合成系统；
+
+**成果**: 新TTS前端相对原系统，各模块错误率均降低45%以上。此外，通过研发新算法，对深度学习方法有了更深刻的认识；通过研究原型的产品化过程，提高了团队沟通写作、算法效率优化等能力；合成效果上相比hmm系统提高0.3mos分。
+
+### 音库自动化构建
+**简介**: 开发出一套自动化的中/英文音库音库制作流程，减少了音库构建的人力成本和制作周期
+
+**成果**: 利用语法学特征+发音人规整后的声学特征，用大量数据训练了两级标注模型；自动制作流程将音库制作周期缩短为将近原来的1/10，并且最终合成效果与人工标注库仅相差0.01mos分
+
+### 阅读领域合成 
+**简介**: 该项目包含两个方面的内容：1.提供可用的适合阅读领域的发音人，2.提供具有表现力的语音合成系统
+
+**成果**: 通过大规模筛选发音人，选出适合阅读领域的男/女发音人各一，在此过程提升了对发音人音色、音库质量和合成效果的评估能力；通过在tts系统中引入焦点信息，提高了合成系统的表现力；最终效果相对原有发音人提高0.4MOS分
+
+### 其他项目
+其它研究方向还包括：voice conversion、tts conversion、端到端合成系统、低码率编码等
+
+# 文章/专利
+
+"The Sogou System for Blizzard Challenge 2020", 2020
+
+"WaveNet Vocoder with Limited Training Data for Voice Conversion", 2018
+
+"The IFLYTEK System for Blizzard Challenge 2017", 2017
+
+"The iFLYTEK system for blizzard machine learning challenge 2017-ES1", 2017 
+
+“语音信号发送方法及系统、接收方法及系统”，第二发明人，公开号：CN103474075A
+
+“一种韵律预测方法及系统”，第一发明人，公开号：CN107039034A
+
+“确定文本焦点的方法及系统”，第一发明人，公开号：CN105988978A
+
+“音视频字幕生成方法及装置”，第一发明人，申请公开号：CN105244022A
+
+
+# 关于我
+多年来专注于自然语言处理和语音合成相关工作，积累了丰富的工作经验。对整个语音合成系统都有较深入的研究，对语音技术和行业发展有清晰的认识和理解，喜欢接受新的挑战并努力完成。    
+
+# 致谢
+感谢您花时间阅读我的简历，期待能有机会和您共事。
